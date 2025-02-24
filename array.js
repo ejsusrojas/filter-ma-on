@@ -1,0 +1,15 @@
+let comidas = [];
+comidas.push("Pizza", "Hamburguesa", "Tacos", "Sushi"); 
+console.log(comidas[3]); 
+comidas.unshift("Ensalada");
+console.log(comidas);
+comidas[4] = "Ramen"; 
+console.log(comidas);
+comidas.shift(); 
+console.log(comidas);
+comidas.splice(2); 
+console.log(comidas);
+delete(comidas[1]); 
+console.log(comidas);
+comidas[1] = "Sándwich";
+console.log(comidas);
